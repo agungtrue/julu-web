@@ -1,0 +1,36 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: Arial, Helvetica, sans-serif;
+  --font-mono: monospace;
+
+  --font-sans: var(--font-poppins), ui-sans-serif, system-ui, sans-serif;
+
+  /* DEFINISI WARNA JULU (Syntax v4) */
+  --color-julu-teal: #0e9291;
+  --color-julu-orange: #f05423;
+  --color-julu-yellow: #fdb913;
+  --color-julu-cream: #fff9f0;
+  --color-julu-dark: #1f2937;
+  --color-julu-grey: #F7F7F7;
+}
+
+@utility container {
+  margin-inline: auto;
+  padding-inline: 1rem;
+}
+
+:root {
+  --background: #ffffff;
+  --foreground: #1f2937;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-sans);
+}
+
+html {
+  scroll-behavior: smooth;
+}
