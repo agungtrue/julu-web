@@ -77,7 +77,7 @@ export default function Home() {
 
             <FadeIn delay={200}>
               <p className="text-lg text-gray-600 max-w-md">
-                Temukan rasa pekat dan nyaman dalam setiap tegukan. Freshly brewed everyday.
+                Temukan rasa pekat dan nyaman dalam setiap tegukan. Freshly brewed everyday!.
               </p>
             </FadeIn>
             
