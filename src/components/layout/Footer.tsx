@@ -20,7 +20,6 @@ export default function Footer() {
             <ul className="space-y-2 text-sm">
               <li><Link href="/menu" className="hover:text-julu-orange transition">Coffee Series</Link></li>
               <li><Link href="/menu" className="hover:text-julu-orange transition">Non-Coffee</Link></li>
-              <li><Link href="/menu" className="hover:text-julu-orange transition">Signature Toast</Link></li>
               <li><Link href="/menu" className="hover:text-julu-orange transition">Bundling Promo</Link></li>
             </ul>
           </div>

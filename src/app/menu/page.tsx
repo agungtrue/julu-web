@@ -7,12 +7,10 @@ import FadeIn from "@/components/styles/FadeIn";
 // Data bisa dipindah ke file terpisah / database nanti
 const MENU_ITEMS = [
   { id: 1, name: "Aren Latte", category: "Coffee", price: "22K", desc: "Espresso, gula aren asli, fresh milk.", image: "/path/img" },
-  { id: 2, name: "Caramel Macchiato", category: "Coffee", price: "28K", desc: "Vanilla syrup, steamed milk, espresso, caramel.", image: "/path/img" },
+  { id: 2, name: "Caramel Latte", category: "Coffee", price: "28K", desc: "Vanilla syrup, steamed milk, espresso, caramel.", image: "/path/img" },
   { id: 3, name: "Americano", category: "Coffee", price: "18K", desc: "Espresso shot dengan air mineral segar.", image: "/path/img" },
-  { id: 4, name: "Matcha Fusion", category: "Non-Coffee", price: "25K", desc: "Premium matcha dengan sedikit sentuhan espresso.", image: "/path/img" },
+  { id: 4, name: "Matcha Latte", category: "Non-Coffee", price: "25K", desc: "Premium matcha dengan sedikit sentuhan espresso.", image: "/path/img" },
   { id: 5, name: "Chocolate Signature", category: "Non-Coffee", price: "24K", desc: "Dark chocolate ganache dengan fresh milk.", image: "/path/img" },
-  { id: 6, name: "Signature Toast", category: "Snacks", price: "18K", desc: "Roti panggang tebal dengan selai srikaya homemade.", image: "/path/img" },
-  { id: 7, name: "Beef & Cheese Toast", category: "Snacks", price: "25K", desc: "Roti panggang gurih dengan smoked beef dan keju leleh.", image: "/path/img" },
   { id: 8, name: "French Fries", category: "Snacks", price: "20K", desc: "Kentang goreng renyah dengan bumbu spesial.", image: "/path/img" },
 ];
 

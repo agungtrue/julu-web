@@ -13,7 +13,7 @@ const poppins = Poppins({
 });
 
 export const metadata: Metadata = {
-  title: "JULU Coffee & Snacks | Fresh Brews & Toast",
+  title: "JULU Coffee & Snacks | Fresh Brews",
   description: "Nikmati kopi terbaik dan snack favoritmu di JULU.",
 };
 
@@ -25,9 +25,9 @@ export default function RootLayout({
   return (
     <html lang="id">
       <body className={`${poppins.variable} font-sans bg-gray-50 text-julu-dark flex flex-col min-h-screen`}>
-        <Header/>
+        {/* <Header/> */}
         {children}
-        <Footer/>
+        {/* <Footer/> */}
       </body>
     </html>
   );

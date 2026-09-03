@@ -4,7 +4,7 @@ import PageHeader from "@/components/PageHeader";
 import FadeIn from "@/components/styles/FadeIn";
 
 export const metadata: Metadata = {
-  title: "JULU Coffee & Snacks | Fresh Brews & Toast",
+  title: "JULU Coffee & Snacks | Fresh Brews",
   description: "Karir di JULU.",
 };
 

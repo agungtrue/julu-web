@@ -4,7 +4,7 @@ import PageHeader from "@/components/PageHeader";
 import FadeIn from "@/components/styles/FadeIn";
 
 export const metadata: Metadata = {
-  title: "JULU Coffee & Snacks | Fresh Brews & Toast",
+  title: "JULU Coffee & Snacks | Fresh Brews",
   description: "Tetang JULU Coffee",
 };
 
@@ -33,7 +33,7 @@ export default function AboutPage() {
               </FadeIn>
               <FadeIn delay={300}>
                 <p className="text-gray-600 mb-4 leading-relaxed">
-                  Kombinasi Kopi Susu Aren kami yang khas dan Roti Panggang (Toast) tebal menjadi favorit warga lokal. Kami percaya kualitas tidak harus mahal, dan kenyamanan adalah hak segala bangsa.
+                  Kombinasi Kopi Susu Aren kami yang khas menjadi favorit warga lokal. Kami percaya kualitas tidak harus mahal, dan kenyamanan adalah hak segala bangsa.
                 </p>
               </FadeIn>
             </div>
