@@ -1,21 +1,15 @@
 FROM node:20-alpine AS deps
 WORKDIR /app
-# Copy package files
 COPY package.json package-lock.json* ./
 
 RUN npm ci
 
-# --- Stage 2: Build Next.js ---
 FROM node:20-alpine AS builder
 WORKDIR /app
 COPY --from=deps /app/node_modules ./node_modules
 COPY . .
 
 ENV NEXT_TELEMETRY_DISABLED 1
-
-# Tambahkan ini jika frontend Anda perlu menembak URL julu-api:
-# ARG NEXT_PUBLIC_API_URL
-# ENV NEXT_PUBLIC_API_URL=$NEXT_PUBLIC_API_URL
 
 # Build project
 RUN npm run build
@@ -46,4 +40,3 @@ ENV PORT 3008
 ENV HOSTNAME "0.0.0.0" 
 
 CMD ["node", "server.js"]
-# CMD ["npm", "run", "start"]
